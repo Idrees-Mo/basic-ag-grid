@@ -13,3 +13,24 @@
 .ag-theme-quartz {
   --ag-border-radius: 4px;
 }
+
+.ag-cell.editable-cell-with-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.ag-cell.editable-cell-with-icon::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 10;
+}
+
+.ag-cell.editable-cell-with-icon:hover::after {
+  opacity: 1;
+}

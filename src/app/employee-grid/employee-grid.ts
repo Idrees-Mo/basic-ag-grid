@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { AgGridAngular } from 'ag-grid-angular';
 import type { ColDef, GridOptions, GridReadyEvent, GridApi } from 'ag-grid-community';
+import { PositionCellRendererComponent } from './position-cell-renderer.component';
 
 @Component({
   selector: 'app-employee-grid',
@@ -38,6 +39,8 @@ export class EmployeeGrid implements OnInit {
       field: 'position',
       headerName: 'Position',
       editable: true,
+      singleClickEdit: true,
+      cellRenderer: PositionCellRendererComponent,
     },
     {
       field: 'department',
