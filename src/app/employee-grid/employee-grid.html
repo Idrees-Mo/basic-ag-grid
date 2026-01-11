@@ -1,0 +1,15 @@
+<div class="employee-grid-container">
+  <h2>Employee Management</h2>
+  <ag-grid-angular
+    class="ag-theme-quartz"
+    style="height:600px; width: 100%;"
+    [columnDefs]="colDefs"
+    [defaultColDef]="defaultColDef"
+    [pagination]="pagination"
+    [paginationPageSize]="paginationPageSize"
+    [paginationPageSizeSelector]="paginationPageSizeSelector"
+    [rowSelection]="'multiple'"
+    (gridReady)="onGridReady($event)"
+    (cellValueChanged)="onCellValueChanged($event)"
+  />
+</div>

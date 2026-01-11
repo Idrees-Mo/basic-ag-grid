@@ -1,0 +1,15 @@
+.employee-grid-container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.employee-grid-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.ag-theme-quartz {
+  --ag-border-radius: 4px;
+}

@@ -1,0 +1,351 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "make": "Tesla",
+      "model": "Model Y",
+      "price": 64950,
+      "electric": true
+    },
+    {
+      "id": "2",
+      "make": "Ford",
+      "model": "F-Series",
+      "price": 33850,
+      "electric": true
+    },
+    {
+      "id": "3",
+      "make": "Toyota",
+      "model": "Corolla",
+      "price": 29600,
+      "electric": true
+    },
+    {
+      "id": "4",
+      "make": "BMW",
+      "model": "i4",
+      "price": 82900,
+      "electric": true
+    },
+    {
+      "id": "5",
+      "make": "Mercedes-Benz",
+      "model": "C-Class",
+      "price": 68700,
+      "electric": false
+    },
+    {
+      "id": "6",
+      "make": "Audi",
+      "model": "Q5",
+      "price": 71900,
+      "electric": false
+    },
+    {
+      "id": "7",
+      "make": "Hyundai",
+      "model": "Ioniq 5",
+      "price": 58900,
+      "electric": true
+    },
+    {
+      "id": "8",
+      "make": "Kia",
+      "model": "EV6",
+      "price": 61200,
+      "electric": true
+    },
+    {
+      "id": "9",
+      "make": "Volkswagen",
+      "model": "Golf",
+      "price": 36500,
+      "electric": false
+    },
+    {
+      "id": "10",
+      "make": "Nissan",
+      "model": "Leaf",
+      "price": 49900,
+      "electric": true
+    },
+    {
+      "id": "11",
+      "make": "Honda",
+      "model": "Civic",
+      "price": 32900,
+      "electric": false
+    },
+    {
+      "id": "12",
+      "make": "Mazda",
+      "model": "CX-5",
+      "price": 42900,
+      "electric": false
+    },
+    {
+      "id": "13",
+      "make": "Subaru",
+      "model": "Forester",
+      "price": 41800,
+      "electric": false
+    },
+    {
+      "id": "14",
+      "make": "Lexus",
+      "model": "RX 350",
+      "price": 83900,
+      "electric": false
+    },
+    {
+      "id": "15",
+      "make": "Volvo",
+      "model": "XC40 Recharge",
+      "price": 76400,
+      "electric": true
+    },
+    {
+      "id": "16",
+      "make": "Chevrolet",
+      "model": "Bolt EV",
+      "price": 37900,
+      "electric": true
+    },
+    {
+      "id": "17",
+      "make": "Ram",
+      "model": "1500",
+      "price": 45900,
+      "electric": false
+    },
+    {
+      "id": "18",
+      "make": "Jeep",
+      "model": "Wrangler",
+      "price": 58900,
+      "electric": false
+    },
+    {
+      "id": "19",
+      "make": "Porsche",
+      "model": "Taycan",
+      "price": 165000,
+      "electric": true
+    },
+    {
+      "id": "20",
+      "make": "Jaguar",
+      "model": "I-Pace",
+      "price": 124500,
+      "electric": true
+    },
+    {
+      "id": "21",
+      "make": "Mini",
+      "model": "Cooper SE",
+      "price": 49900,
+      "electric": true
+    },
+    {
+      "id": "22",
+      "make": "Toyota",
+      "model": "RAV4",
+      "price": 42900,
+      "electric": false
+    },
+    {
+      "id": "23",
+      "make": "Honda",
+      "model": "Accord",
+      "price": 37900,
+      "electric": false
+    },
+    {
+      "id": "24",
+      "make": "Ford",
+      "model": "Mustang Mach-E",
+      "price": 74800,
+      "electric": true
+    },
+    {
+      "id": "25",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "price": 37900,
+      "electric": false
+    },
+    {
+      "id": "26",
+      "make": "Kia",
+      "model": "Sportage",
+      "price": 36900,
+      "electric": false
+    },
+    {
+      "id": "27",
+      "make": "BMW",
+      "model": "X3",
+      "price": 85900,
+      "electric": false
+    },
+    {
+      "id": "28",
+      "make": "Tesla",
+      "model": "Model 3",
+      "price": 59900,
+      "electric": true
+    },
+    {
+      "id": "29",
+      "make": "Mercedes-Benz",
+      "model": "EQS",
+      "price": 189900,
+      "electric": true
+    },
+    {
+      "id": "30",
+      "make": "Volvo",
+      "model": "EX30",
+      "price": 58900,
+      "electric": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "department": "Engineering",
+      "salary": 95000,
+      "startDate": "2020-03-15",
+      "email": "john.doe@company.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "position": "Product Manager",
+      "department": "Product",
+      "salary": 110000,
+      "startDate": "2019-07-22",
+      "email": "jane.smith@company.com"
+    },
+    {
+      "id": "3",
+      "name": "Mike Johnson",
+      "position": "Senior Developer",
+      "department": "Engineering",
+      "salary": 105000,
+      "startDate": "2018-11-10",
+      "email": "mike.johnson@company.com"
+    },
+    {
+      "id": "4",
+      "name": "Sarah Williams",
+      "position": "UX Designer",
+      "department": "Design",
+      "salary": 88000,
+      "startDate": "2021-01-20",
+      "email": "sarah.williams@company.com"
+    },
+    {
+      "id": "5",
+      "name": "David Brown",
+      "position": "DevOps Engineer",
+      "department": "Engineering",
+      "salary": 98000,
+      "startDate": "2020-06-05",
+      "email": "david.brown@company.com"
+    },
+    {
+      "id": "6",
+      "name": "Emily Davis",
+      "position": "Marketing Manager",
+      "department": "Marketing",
+      "salary": 92000,
+      "startDate": "2019-09-12",
+      "email": "emily.davis@company.com"
+    },
+    {
+      "id": "7",
+      "name": "Robert Miller",
+      "position": "Data Scientist",
+      "department": "Engineering",
+      "salary": 115000,
+      "startDate": "2021-03-08",
+      "email": "robert.miller@company.com"
+    },
+    {
+      "id": "8",
+      "name": "Lisa Anderson",
+      "position": "HR Manager",
+      "department": "Human Resources",
+      "salary": 85000,
+      "startDate": "2018-05-14",
+      "email": "lisa.anderson@company.com"
+    },
+    {
+      "id": "9",
+      "name": "James Wilson",
+      "position": "Sales Director",
+      "department": "Sales",
+      "salary": 120000,
+      "startDate": "2017-08-30",
+      "email": "james.wilson@company.com"
+    },
+    {
+      "id": "10",
+      "name": "Mary Thomas",
+      "position": "QA Engineer",
+      "department": "Engineering",
+      "salary": 82000,
+      "startDate": "2020-10-18",
+      "email": "mary.thomas@company.com"
+    },
+    {
+      "id": "11",
+      "name": "Christopher Lee",
+      "position": "Backend Developer",
+      "department": "Engineering",
+      "salary": 96000,
+      "startDate": "2021-02-25",
+      "email": "christopher.lee@company.com"
+    },
+    {
+      "id": "12",
+      "name": "Jennifer Taylor",
+      "position": "Content Writer",
+      "department": "Marketing",
+      "salary": 72000,
+      "startDate": "2022-01-15",
+      "email": "jennifer.taylor@company.com"
+    },
+    {
+      "id": "13",
+      "name": "Daniel Martinez",
+      "position": "Frontend Developer",
+      "department": "Engineering",
+      "salary": 94000,
+      "startDate": "2020-12-03",
+      "email": "daniel.martinez@company.com"
+    },
+    {
+      "id": "14",
+      "name": "Ashley Garcia",
+      "position": "Business Analyst",
+      "department": "Product",
+      "salary": 87000,
+      "startDate": "2021-04-20",
+      "email": "ashley.garcia@company.com"
+    },
+    {
+      "id": "15",
+      "name": "Matthew Rodriguez",
+      "position": "System Administrator",
+      "department": "IT",
+      "salary": 78000,
+      "startDate": "2019-11-08",
+      "email": "matthew.rodriguez@company.com"
+    }
+  ]
+}
