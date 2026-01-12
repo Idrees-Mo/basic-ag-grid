@@ -14,23 +14,35 @@
   --ag-border-radius: 4px;
 }
 
-.ag-cell.editable-cell-with-icon {
-  cursor: pointer;
-  position: relative;
-}
-
-.ag-cell.editable-cell-with-icon::after {
-  content: '';
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
+/* Cell edit input styling */
+.ag-theme-quartz .ag-cell-edit-input {
+  padding: 4px 8px;
   font-size: 14px;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-  z-index: 10;
+  border: 2px solid #3b82f6;
+  border-radius: 4px;
+  outline: none;
 }
 
-.ag-cell.editable-cell-with-icon:hover::after {
-  opacity: 1;
+.ag-theme-quartz .ag-cell-edit-input:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
 }
+
+/* Row hover effects */
+.ag-theme-quartz .ag-row:hover .ag-cell:not(.editable-cell) {
+  background-color: #f5f5f5;
+}
+
+/* Cell editor select styling */
+.ag-theme-quartz .ag-cell-editor select {
+  width: 100%;
+  padding: 4px 8px;
+  border: 2px solid #3b82f6;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+}
+
+.ag-theme-quartz .ag-cell-editor select:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+

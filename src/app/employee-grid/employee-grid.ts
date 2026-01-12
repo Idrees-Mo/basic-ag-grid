@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { AgGridAngular } from 'ag-grid-angular';
 import type { ColDef, GridOptions, GridReadyEvent, GridApi } from 'ag-grid-community';
 import { PositionCellRendererComponent } from './position-cell-renderer.component';
+import { EditableCellRendererComponent } from './editable-cell-renderer.component';
 
 @Component({
   selector: 'app-employee-grid',
@@ -34,12 +35,19 @@ export class EmployeeGrid implements OnInit {
       headerName: 'Employee Name',
       flex: 1.5,
       editable: true,
+      cellClass: 'editable-cell',
+      cellRenderer: EditableCellRendererComponent,
+      cellRendererParams: {
+        iconPosition: 'right',
+        showIconOnHover: true
+      }
     },
     {
       field: 'position',
       headerName: 'Position',
       editable: true,
       singleClickEdit: true,
+      cellClass: 'editable-cell',
       cellRenderer: PositionCellRendererComponent,
     },
     {
@@ -68,6 +76,13 @@ export class EmployeeGrid implements OnInit {
       field: 'email',
       headerName: 'Email',
       flex: 1.5,
+      editable: true,
+      cellClass: 'editable-cell',
+      cellRenderer: EditableCellRendererComponent,
+      cellRendererParams: {
+        iconPosition: 'left',
+        showIconOnHover: true
+      }
     },
   ];
 
