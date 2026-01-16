@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Error notification */
+.error-notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ef4444;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  font-size: 14px;
+  max-width: 400px;
+  animation: slideIn 0.3s ease-out;
+}
+
+.error-notification.fade-out {
+  animation: fadeOut 0.3s ease-out;
+}
+
+/* Cell error notification (appears under the cell) */
+.cell-error-notification {
+  position: fixed;
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+  font-size: 13px;
+  max-width: 300px;
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
